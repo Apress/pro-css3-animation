@@ -1,0 +1,8 @@
+ul[role=navigation] li a { 
+position: relative; top: 0; 
+transition: 0.2s all linear; 
+... 
+} 
+ul[role=navigation] li a:hover,  ul[role=navigation] li a:focus { 
+top: -0.6rem; 
+}

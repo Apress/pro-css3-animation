@@ -1,0 +1,12 @@
+#cardfan img[src= "bike.jpg"] { 
+     transform: rotate(6deg); 
+} 
+#cardfan img[src= "roma.jpg"] { 
+     transform: rotate(−6deg); 
+} 
+#cardfan:hover img[src= "bike.jpg"] { 
+     transform: rotate(24deg); 
+} 
+#cardfan:hover img[src= "roma.jpg"] { 
+     transform: rotate(−24deg); 
+}

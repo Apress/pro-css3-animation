@@ -1,0 +1,6 @@
+figure { float: left; } 
+figure, figure img { width: 500px; height: 333px; } 
+figcaption { 
+font-family: Baskerville, "Baskerville Old Face", Garamond, "Times New Roman", serif; 
+font-style: italic; background: rgba(0,0,0,0.4); 
+font-size: 2rem; padding: 0.8rem; color: #fff; } 

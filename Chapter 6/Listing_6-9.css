@@ -1,0 +1,20 @@
+@keyframes slider { 
+0%  { transform: translateX(0px); } 
+20% { transform: translateX(0px); } 
+25% { transform: translateX(−500px); } 
+45% { transform: translateX(−500px); } 
+50% { transform: translateX(−1000px); } 
+70% { transform: translateX(−1000px); } 
+75% { transform: translateX(−1500px); } 
+95% { transform: translateX(−1500px); } 
+100% { transform: translateX(−2000px); } 
+} 
+@keyframes fader { 
+     0% { opacity: 1; } 
+70% { opacity: 1; } 
+90% { opacity: 0; ease-out; } 
+95% { opacity: 0; } 
+100% { opacity: 1; ease-in; } 
+  } 
+figure#imagestrip { width: 2500px; 
+animation: slider 30s infinite, fader 7.5s infinite; } 

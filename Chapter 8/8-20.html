@@ -1,0 +1,17 @@
+<style>
+@keyframes leftmove {
+        100% { transform: translateX(-70px);  opacity: 1; }
+}
+@keyframes rightmove {
+        100% { transform: translateX(70px);  opacity: 1; }
+}
+</style>
+<script>
+$(function() {
+    var footerBottom = $("#articlefooter").offset().top + $("#articlefooter").height();
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > (footerBottom - $(window).height())) {
+        $("#prevpage").css('animation', 'leftmove 1s 2s forwards');
+        $("#nextpage").css('animation', 'rightmove 1s 1s forwards');
+        }); });
+</script>

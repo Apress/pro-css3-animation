@@ -1,0 +1,5 @@
+figure.clapperboard figcaption {   opacity: 0; 
+transition-property:                 opacity,   transform,               background; 
+transition-timing-function;     linear,      ease,                        linear; 
+transition-duration:                 2s,           9999999 s,                0s; 
+transition-delay:                      0s,           0 s,                    0s; }

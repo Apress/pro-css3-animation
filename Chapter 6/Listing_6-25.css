@@ -1,0 +1,12 @@
+html { min-height: 100%; position: relative; } 
+body { margin: 0; height: 100%; margin-right: 2em;  } 
+dl#gallery { float: left; } 
+dl#gallery  dt { width: 150px; } 
+dl#gallery dd { 
+     margin-left: 0; background: rgba(0,0,0,0); 
+    position: absolute; top: 0; bottom: 0; 
+     width: 100%; height: 100%; 
+display: box; box-pack:center; box-align:center; 
+visibility: hidden; 
+} 
+dd a { background: #fff; display: block; transition: 4s all ease-in; } 

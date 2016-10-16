@@ -1,0 +1,23 @@
+<style>
+#cardfan { position: relative; margin: 0 auto; } 
+#cardfan, #cardfan img, #cardfan img:before, #cardfan img:after { 
+     width: 640px; height: 480px; 
+} 
+#cardfan img, #cardfan:before, #cardfan:after { 
+     border: 32px solid #ffe; 
+box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2); 
+position: absolute; 
+transform-origin: center 1200px; 
+} 
+div#cardfan::before { content: url(bike.jpg); } 
+#cardfan::after { content: url(roma.jpg); } 
+#cardfan::before, div#cardfan:after { position: absolute; left: 0; top: 0; } 
+#cardfan::before { transform: rotate(6deg); } 
+#cardfan::after { transform: rotate(−6deg);  }
+</style>
+
+<body>
+<div id= cardfan> 
+         <img src= florence.jpg alt= "A photograph of bridge in Florence, Italy"> 
+</div> 
+</body>

@@ -1,0 +1,7 @@
+@keyframes imageswap { 
+0% { background-image: url(black-kite.jpg);  } 
+20% { background-image: url(red-kite.jpg);  } 
+40% { background-image: url(pelicans.jpg);  } 
+80% { background-image: url(pariah-kite.jpg);  } 
+100% { background-image: url(black-kite.jpg);  } 
+}

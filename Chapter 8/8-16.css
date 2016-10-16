@@ -1,0 +1,2 @@
+.linkmoveleft { transform: translateX(-70px); opacity: 1; }
+.linkmoveright  { transform: translateX(70px);  opacity: 1; }

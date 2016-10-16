@@ -1,0 +1,10 @@
+img.tilt { 
+width: 300px; height: 300px; float: left; 
+-moz-transition: 2s all; -webkit-transition: 2s all; 
+-o-transition: 2s all; transition: 2s all; 
+} 
+img.tilt:hover { 
+-moz-transform: rotate(7.5deg); -o-transform: rotate(7.5deg); 
+-ms-transform: rotate(7.5deg); -webkit-transform: rotate(7.5deg); 
+transform: rotate(7.5deg); 
+} 

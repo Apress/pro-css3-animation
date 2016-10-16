@@ -1,0 +1,12 @@
+@keyframes blowup { 
+     0% { width: 0;  height: 0; opacity: 0;  } 
+     30% { width: 640px; height: 0; opacity: 0;  } 
+60% { width: 640px; height: 480px; opacity: 0; margin: 20px; } 
+100% { width: 640px; height: 480px; opacity: 1; margin: 20px; } 
+} 
+dd:target { 
+     visibility: visible; background: rgba(0,0,0,0.6); 
+transition: 2s background linear; 
+} 
+dd:target a { box-shadow: 0 0 8px 8px rgba(0,0,0,0.3); } 
+dd:target a img { animation: blowup 3s forwards; } 

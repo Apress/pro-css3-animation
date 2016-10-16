@@ -1,0 +1,3 @@
+dl#gallery dd { position: absolute; left: 200px; top: 2.2em; opacity: 0; 
+transition: .85s opacity linear; } 
+dl#gallery dt:hover  +  dd { opacity: 1; } 

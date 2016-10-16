@@ -1,0 +1,6 @@
+figcaption { 
+font-family: Baskerville, Garamond, "Times New Roman", serif; 
+font-style: italic; background: rgba(0,0,0,0.4); 
+font-size: 2rem; padding: 0.8 rem; color: #fff; 
+position: relative;  bottom: 400px; 
+transition: 2s all; } 

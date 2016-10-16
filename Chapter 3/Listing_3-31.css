@@ -1,0 +1,6 @@
+div#cardfan:hover::before { 
+     transform: rotate(24deg); 
+} 
+div#cardfan:hover::after { 
+     transform: rotate(−24deg);
+}

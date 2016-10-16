@@ -1,0 +1,6 @@
+div#wrapper { width: 600px; margin: 5em auto; 
+     padding: 3em; 
+background: rgba(255, 255, 255, 0.8); 
+box-shadow: 100px 0 100px  rgba(255, 255, 255, 0.8), 
+-100px 0 100px  rgba(255, 255, 255, 0.8); 
+} 

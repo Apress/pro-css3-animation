@@ -1,0 +1,10 @@
+@keyframes slider { 
+     0%, 25% { opacity: 1;  } 
+30%, 100% { opacity: 0;  } 
+} 
+figure#imagestrip { 
+     width: 500px; height: 400px; 
+background: #000; box-sizing: border-box; overflow: hidden; 
+position: relative; 
+} 
+figure#imagestrip img { position: absolute; top: 0; left: 0; }

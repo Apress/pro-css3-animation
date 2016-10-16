@@ -1,0 +1,2 @@
+input + span:after { content: attr(title); color: red; margin-left: 0.6rem; opacity: 0; } 
+input:invalid + span:after { opacity: 1; }

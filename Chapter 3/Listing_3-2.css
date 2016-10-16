@@ -1,0 +1,4 @@
+div.crossfade { background: url(leaf-veins.jpg); background-size: cover; } 
+div.crossfade, div.crossfade img  { width: 418px; height: 500px;  } 
+div.crossfade img { transition: 3s opacity ease-out; } 
+div.crossfade img:hover { opacity: 0; }

@@ -1,0 +1,6 @@
+body { background-image: url(fog.jpg); background-size: cover;
+     background-repeat: no-repeat; color: #fff; font-family: Avenir, Arial, sans-serif;
+}
+h1 { font-family: 'Calluna Sans', Arial, sans-serif; text-align: center;
+      font-size: 10rem; margin: 8rem auto;
+}

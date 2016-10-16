@@ -1,0 +1,6 @@
+img.tilt { 
+width: 300px; height: 300px; float: left; 
+-moz-transform: skewX(21deg); -o-transform: skewX(21deg); 
+-ms-transform: skewX(21deg); -webkit-transform: skewX(21deg); 
+transform: skewX(21deg); 
+} 

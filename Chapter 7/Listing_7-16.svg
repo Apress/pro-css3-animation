@@ -1,0 +1,8 @@
+<g> 
+<clipPath id="ab-clipper"> 
+        <path fill="#D3D3D3" d="M1654.393,678.219 . . .> 
+</clipPath> 
+<path fill="#FF0000" d="M1654.393,678.219. . . /> 
+<image clip-path="url(#ab-clipper)" height="100%" width="100%" x="800" y="50" 
+xlink:href="wheat.jpeg" preserveAspectRatio="xMidYMin slice" /> 
+</g>

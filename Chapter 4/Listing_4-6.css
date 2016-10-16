@@ -1,0 +1,8 @@
+nav a { text-decoration: none; color: #fff; padding: 1em; 
+font-family: Futura, Arial, sans-serif; 
+text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6); 
+-webkit-transition: background .85s ease-in-out; 
+-moz-transition: background .85s ease-in-out; 
+-o-transition: background .85s ease-in-out; 
+transition: background .85s ease-in-out; 
+  } 

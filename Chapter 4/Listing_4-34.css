@@ -1,0 +1,6 @@
+div#mars { background: #000; color: #fff; 
+font-family: Futura, Arial, sans-serif; 
+width: 400px; padding: 1.6rem; 
+line-height: 175%; border-radius: 6px; } 
+img { display: block; margin: 0 auto; } 
+div#mars p { margin: 1rem; } 

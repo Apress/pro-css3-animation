@@ -1,0 +1,6 @@
+#cardfan:hover img:first-child { 
+     transform: rotate(12deg); 
+} 
+#cardfan:hover img:last-child { 
+     transform: rotate(−12deg);
+}

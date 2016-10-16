@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<title>Responsive Design</title>
+<style>
+@keyframes spin {
+    100% { transform: rotateY(360deg); }
+}
+body {  background: black; font-family: Georgia, serif; font-style: italic; font-size: 1.2rem; }
+div#gallery { perspective: 1000px; margin-top: 400px; width: 1400px; }
+div#inner{ transform-style: preserve-3d;
+    transform-origin-x: 660px; transform-origin-z: -500px; height: 244px; }
+figure, img { width: 320px; height: 244px; }
+figure { left: 500px; position: absolute;  overflow: hidden; transform-origin-z: -500px; }
+figcaption { background: hsla(0,0%,0%,0.5); color: #fff; position: relative; top: 0; padding:
+8px;
+    transition: 0.6s top linear; }
+figure:hover figcaption { top: -38px; }
+div#gallery:hover div#inner { animation: spin 24s linear infinite; }
+div#gallery figure:nth-child(1) { transform: rotateY(0deg); }
+div#gallery figure:nth-child(2) { transform: rotateY(−45deg);  }
+div#gallery figure:nth-child(3) { transform: rotateY(−90deg); }
+div#gallery figure:nth-child(4) { transform: rotateY(−135deg); }
+div#gallery figure:nth-child(5) { transform: rotateY(−180deg); }
+div#gallery figure:nth-child(6) { transform: rotateY(−225deg); }
+div#gallery figure:nth-child(7) { transform: rotateY(−270deg); }
+div#gallery figure:nth-child(8) { transform: rotateY(−315deg); }
+</style>
+</head>
+<body>
+<div id="gallery">
+    <div id="inner">
+    <figure>
+        <img src="färentuna-church.jpeg" alt="Färentuna church in Färingsö, Sweden">
+        <figcaption>Färentuna Church, Färingsö, Sweden</figcaption>
+    </figure>
+    <figure>
+         <img src="winter-trees.jpeg" alt="Trees in winter, Sweden">
+         <figcaption>Trees in winter, Sweden</figcaption>
+     </figure>
+     <figure>
+          <img src="view-from-rastaholm.jpeg" alt="View From Rastaholm, Sweden">
+         <figcaption>View From Rastaholm, Sweden</figcaption>
+     </figure>
+     <figure>
+          <img src="fall-park.jpeg" alt="Park in fall">
+          <figcaption>Swedish park in Fall</figcaption>
+      </figure>
+      <figure>
+          <img src="sunset2.jpeg" alt="Sunset">
+          <figcaption>Sunset</figcaption>
+</figure>
+148
+<figure>
+             <img src="tulips2.jpeg" alt="Tulips">
+             <figcaption>Tulips</figcaption>
+         </figure>
+         <figure>
+               <img src="hepatica-nobilis.jpg" alt="Nepatica-nobilis">
+               <figcaption>Nepatica nobilis</figcaption>
+          </figure>
+          <figure>
+               <img src="sunset.jpg" alt="Sunset">
+               <figcaption>Sunset</figcaption>
+          </figure>
+          <figure>
+               <img src="ekebyhosparken.jpg" alt="Ekebyhosparken">
+               <figcaption>Ekebyhosparken</figcaption>
+          </figure>
+      </div>
+</div>
+</body>
+</html>
+
+
+

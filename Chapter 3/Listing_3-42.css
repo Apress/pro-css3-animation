@@ -1,0 +1,8 @@
+body:hover { 
+background: 
+     url(lake-benmore-new-zealand-panorama.jpg) calc(100% + 1300px) 200px no-repeat, 
+     url(lake-tekapo-new-zealand-panorama.jpg) 2400px 600px no-repeat, 
+url(new-zealand-panorama.jpg) 2400px 1000px no-repeat, 
+url(lindis-pass-new-zealand-panorama.jpg) 2400px 1300px no-repeat; 
+transition: 70s all linear; 
+} 

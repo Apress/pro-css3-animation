@@ -1,0 +1,28 @@
+div#container span { 
+display: block; width: 100px; border: 7px solid white; 
+height: 32px; 
+position: absolute; top: 90px; left: 90px; 
+background-color: #333; 
+transform-origin: top right; z-index: -4; 
+} 
+div#iris { 
+border-radius: 50%; border: 30px solid #fff; 
+width: 200px; height: 200px; position: relative; 
+} 
+div#container span#iris1 { transform: translate(−35px, 55px) rotate(0deg);  } 
+div#container span#iris2 { transform: translate(−70px, 90px) rotate(45deg); } 
+div#container span#iris3 { transform: translate(−130px, 70px) rotate(90deg); } 
+div#container span#iris4 { transform: translate(−160px, 20px) rotate(135deg); } 
+div#container span#iris5 { transform: translate(−145px, -35px) rotate(180deg); } 
+div#container span#iris6 { transform: translate(−95px, -60px) rotate(225deg); } 
+div#container span#iris7 { transform: translate(−45px, -45px) rotate(270deg); } 
+div#container span#iris8 { transform: translate( −20px, 5px) rotate(315deg); } 
+h1 { 
+font-family: "Univers LT 55"; text-transform: uppercase; font-size: 80px; 
+letter-spacing: 10px; position: absolute; top: 10px; left: 150px; 
+text-align: left; line-height: 50px; 
+}
+h1 span { 
+font-family: "Univers CE 45 Light"; font-size: 25px; display: block; 
+letter-spacing: 20px; text-indent: 30px; 
+}

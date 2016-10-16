@@ -1,0 +1,5 @@
+form { font-size: 1.2rem; font-family: "Gill Sans", Arial, sans-serif; } 
+label,input { display: block; } 
+label:first-letter { border-bottom: 2px solid #bbb; } 
+input { border: 1px solid #bbb; padding: .4rem; border-radius: .2rem; margin: .5rem 0; } 
+input[type="submit"] { border: none; text-transform: uppercase; } 

@@ -1,0 +1,4 @@
+label { display: block; text-align: center; font-size: x-large; 
+background: red; border-radius: 6px; padding: .2rem; } 
+label:hover { background: yellow; color: #000; cursor: pointer; } 
+input { display: none; }

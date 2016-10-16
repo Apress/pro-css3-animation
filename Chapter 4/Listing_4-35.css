@@ -1,0 +1,1 @@
+input ~ div { overflow: hidden; height: 0; transition: .6s all cubic-bezier(0.735, -0.485, 0.145, 1.625);   } 

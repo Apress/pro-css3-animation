@@ -1,0 +1,8 @@
+img.tilt:hover { 
+-moz-transform: rotate(7.5deg); -o-transform: rotate(7.5deg); 
+-ms-transform: rotate(7.5deg); -webkit-transform: rotate(7.5deg); 
+transform: rotate(7.5deg); 
+-moz-transition: 2350ms all; 
+-webkit-transition: 2350ms all; -o-transition: 2350ms all; 
+transition: 2350ms all; 
+}

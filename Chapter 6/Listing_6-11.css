@@ -1,0 +1,11 @@
+@keyframes slider { 
+0%  { background-image: url(black-kite.jpg); } 
+20% { background-image: cross-fade(url(black-kite.jpg), url(red-kite.jpg),0%); } 
+25% { background-image: cross-fade(url(black-kite.jpg), url(red-kite.jpg),100%); } 
+45% { background-image: cross-fade(url(red-kite.jpg), url(pelicans.jpg),0%); } 
+50% { background-image: cross-fade(url(red-kite.jpg), url(pelicans.jpg),100%); } 
+70% { background-image: cross-fade(url(pelicans.jpg), url(pariah-kite.jpg),0%); } 
+75% { background-image: cross-fade(url(pelicans.jpg), url(pariah-kite.jpg),100%); } 
+95% { background-image: cross-fade(url(pariah-kite.jpg), url(black-kite.jpg),0%); } 
+    100% { background-image: cross-fade(url(pariah-kite.jpg), url(black-kite.jpg),100%); } 
+} 

@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { font-family: Avenir, sans-serif; margin: 100px 0; }
+#viewingmode {
+    width: 150px; height: 150px; background: rgba(0,0,0,0.2);
+    position: absolute; top: 0; right: 0; text-align: center;
+}
+/* screen, in default widescreen presentation */
+#display {
+    width: 80%; height: 50%; border: 12px solid #585858;
+    border-radius: 5px; margin-top: 20px; background-color: #eee;
+}
+/* base, in default monitor stand - keyboard configuration */
+#buttonbase {
+    width: 90px; border: 12px solid #585858; border-radius: 5px;
+    position: absolute; top: 100px; left: 30px; transform-origin: 25px 5px;
+}
+#display, #buttonbase { display: inline-block; transition: .5s all linear; }

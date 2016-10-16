@@ -1,0 +1,3 @@
+figure { transform-style: preserve-3d; transform-origin-x: 660px;
+    transform-origin-z: -500px; height: 244px; transition: 2s transform linear; }
+figure:hover { cursor: ew-resize; }

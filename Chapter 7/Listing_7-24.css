@@ -1,0 +1,5 @@
+div.polaroid { float: left; border: 25px solid #f3f4e3; border-bottom-width: 45px; 
+box-shadow: 0 0 200px 200px rgba(29,25,4,1) inset; 
+filter: sepia(.8);  transition: 3s all ease-in;  } 
+div.polaroid img { position: relative; z-index: -1; } 
+div.polaroid:hover { filter: sepia(.2); box-shadow: 0 0 50px 0 rgba(29,25,4,0.2) inset } 

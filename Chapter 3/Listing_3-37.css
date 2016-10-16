@@ -1,0 +1,17 @@
+figure.clapperboard { position: relative; overflow: hidden; } 
+figure.clapperboard figcaption { position: absolute; top: 0; left: 0; padding: 2rem; } 
+figure.clapperboard, figure.clapperboard figcaption { width:618px;height:515px; } 
+figure.clapperboard figcaption { 
+     font-family: Futura, Arial, sans-serif; font-weight: 100; font-style: italic; 
+     color: white;  font-size: 1.2rem; padding: 2 rem; padding-top: 8rem; 
+     box-sizing: border-box; background: rgba(0,0,0,0); 
+text-shadow: 3px 3px 1px rgba(0,0,0,0.6); 
+transform-origin: bottom right; transform: rotate(90deg); 
+} 
+figure.clapperboard:hover figcaption { 
+     transform: rotate(0); 
+     opacity: 1; 
+     background: rgba(0,0,0,0.6); 
+     transition: transform 2s cubic-bezier(.12,.49,.17,.87), background .9 s linear 2.2s; 
+} 
+figure.clapperboard figcaption q { font-size: 2rem; display: block; margin-bottom: 2rem; } 

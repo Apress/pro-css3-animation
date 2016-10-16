@@ -1,0 +1,3 @@
+#wrapper:hover #ball, #wrapper:hover #shadow  { 
+animation-play-state: paused; 
+} 

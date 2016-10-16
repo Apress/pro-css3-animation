@@ -1,0 +1,8 @@
+<script src=//code.jquery.com/jquery.min.js></script> 
+<script> 
+$(document).ready(function(){ 
+$('ul[role="navigation"] a').each(function() { 
+if (this.href === window.location.href){ $(this). addClass('current');} 
+}); 
+}) 
+</script> 

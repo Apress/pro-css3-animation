@@ -1,0 +1,13 @@
+@-webkit-keyframes multislide { 
+0% { left: 20px; } 
+20% { right: 200px; } 
+80% { left: 50 %; } 
+100% { right: 180px; } 
+} 
+#bluebox { 
+width: 100px; height: 150px; 
+-webkit-animation-name: multislide; 
+-webkit-animation-duration: 10.5s; 
+-webkit-animation-timing-function: ease-in-out; 
+-webkit-animation-delay: 200ms; 
+}

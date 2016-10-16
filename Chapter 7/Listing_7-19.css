@@ -1,0 +1,5 @@
+html { min-height: 100%; } 
+body { height: 100%; background: linear-gradient(#b5d3ff, #30509a); } 
+img.flake { width: 150px; height: 150px; position: relative; 
+animation: snow 8s linear infinite forwards, 
+drift 12s ease-in-out forwards infinite; } 

@@ -1,0 +1,3 @@
+img { border: 20px solid #fff; box-shadow: 10px 10px 8px rgba(0,0,0,0.3); } 
+img.bw { filter: grayscale(1); transition: 1s filter linear; } 
+img.bw:hover { filter: grayscale(0); } 

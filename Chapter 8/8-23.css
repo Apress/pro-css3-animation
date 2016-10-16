@@ -1,0 +1,6 @@
+html { height: 100%; }
+body { min-height: 100%; margin: 0; }
+@keyframes snowflake {
+        100% { transform: translateY(1800px) rotate(1200deg);  }
+}
+div { background: red; position: absolute; animation: snowflake 40s linear infinite;  }

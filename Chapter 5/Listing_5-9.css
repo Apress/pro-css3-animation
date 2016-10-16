@@ -1,0 +1,7 @@
+#box { background: red; width: 100px; height: 100px; position: absolute; 
+animation-name: lefttoright, toptobottom; 
+animation-duration: 3s, 6s; 
+animation-timing-function: ease-in, ease-in-out; 
+animation-delay: 0s, 3s; 
+animation-fill-mode: both; 
+}

@@ -1,0 +1,16 @@
+@keyframes lefttoright { 
+0% { left: 0; } 
+100% { left: 800px; } 
+} 
+@keyframes toptobottom { 
+0% { top: 0; } 
+25% { top: 100px; } 
+50% { top: 0; } 
+75% { top: 100px; } 
+100% { top: 0; } 
+} 
+#box { background: red; width: 100px; height: 100px; position: absolute; 
+animation-name: lefttoright, toptobottom; 
+animation-duration: 4s, 2s; 
+animation-timing-function: ease-in, ease-in-out; 
+} 

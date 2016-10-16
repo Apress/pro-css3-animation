@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="142px" height="340px"
+viewBox="0 0 142 340">
+<style>
+    g { visibility: hidden;  }
+    g:target  { visibility: visible;  }
+</style>
+    <g id="ectomorph">
+            <path d="M11.356,682.57c5.297,6.354,10.253,10.084,17.781,14.844
+             C18.907,694.043,15.905,690.475,11.356,682.57z"/>
+.... </g>
+<g id="mesomorph">
+<path d="M9.981,679.538c0,0-8.719,7.188-8.719,17.125 ..." />
+.... </g>

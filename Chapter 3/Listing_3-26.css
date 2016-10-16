@@ -1,0 +1,6 @@
+#cardfan img:first-child { 
+     transform: rotate(6deg); 
+} 
+#cardfan img:nth-child(2n) { 
+     transform: rotate(−6deg); 
+}

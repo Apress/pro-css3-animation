@@ -1,0 +1,8 @@
+#shaded-element {
+filter: custom(url(‘wobble.vs’)
+      40 40,
+      amplitude 60,
+      amount 0.0);
+)
+transition: filter ease-in-out 2s;
+}

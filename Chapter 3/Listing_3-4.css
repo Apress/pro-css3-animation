@@ -1,0 +1,5 @@
+div.crossfade { position: relative; } 
+div.crossfade, div.crossfade img { width: 418px; height: 500px; } 
+div.crossfade img:nth-child(2) { position:absolute; left:0; top:0; transition: 
+3s opacity ease-out; } 
+div.crossfade img:nth-child(2):hover { opacity: 0; } 

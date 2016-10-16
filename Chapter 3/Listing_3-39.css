@@ -1,0 +1,6 @@
+figure.clapperboard:hover figcaption { transform: rotate(0); opacity: 1; 
+     transition-property:         opacity,    transform,                              background; 
+transition-timing-function:     ease,         cubic-bezier(.12,.49,.17,.87), linear; 
+transition-duration:                 0s,           .9 s,                      1s; 
+     transition-delay:                      0s,            0 s,                    1s; 
+  } 

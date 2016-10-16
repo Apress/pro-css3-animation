@@ -1,0 +1,2 @@
+input + span:after { content: attr(title); color: red; margin-left: 0.6rem; opacity: 0; 
+transition-property: opacity;transition-duration: 2s; transition-delay: 2s;}

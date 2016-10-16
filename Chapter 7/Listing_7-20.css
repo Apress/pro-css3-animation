@@ -1,0 +1,9 @@
+@keyframes snow { 
+    100% { top: 700px; transform: rotate(2.2turn);  } 
+} 
+@keyframes drift { 
+     0% { left: -5px; } 
+25% { left: 55px; } 
+55% { left: -15px; } 
+100% { left: 0px; } 
+}

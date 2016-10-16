@@ -1,0 +1,8 @@
+body { background: hsl(100,0%,100%); font-family: Avenir, sans-serif; font-size: 1.5rem;
+    margin-top: 400px; perspective: 1000px;     }
+figure { margin: 20px; transition: 1s all linear;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.3); float: left; }
+figure, figure img, figcaption { width: 320px; height: 244px; box-sizing: border-box; }
+figure img, figcaption { position: absolute; }
+figcaption { background: #fff; text-align: center; padding-top: 6rem;   }
+figure:hover { transform: rotateY(180deg);  }

@@ -1,0 +1,9 @@
+@media screen and (max-width: 80em) {
+    #display { width: 50%; height: 60%; border: 10px solid #585858; }
+    #buttonbase { width: 8px; height: 8px; border: none;
+        border-radius: 50%; background: #fff; top: 101px; left: 70px; }
+}
+@media screen and (max-width: 40em) {
+    #display { border-width: 23px 5px; width: 45%; height: 73%; }
+    #buttonbase { top: 110px;   }
+}

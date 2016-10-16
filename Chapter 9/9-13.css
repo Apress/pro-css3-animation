@@ -1,0 +1,12 @@
+div { perspective: 1000px; margin-top: 400px; width: 1400px; }
+figure { transform-style: preserve-3d; height: 244px; transform-origin-x: 660px; }
+img { width: 320px; height: 244px; position: absolute; left: 500px; }
+figure, img { transform-origin-z: -500px; }
+div img:nth-child(1) { transform: rotateY(0deg); }
+div img:nth-child(2) { transform: rotateY(−45deg); }
+div img:nth-child(3) { transform: rotateY(−90deg); }
+div img:nth-child(4) { transform: rotateY(−135deg); }
+div img:nth-child(5) { transform: rotateY(−180deg); }
+div img:nth-child(6) { transform: rotateY(−225deg); }
+div img:nth-child(7) { transform: rotateY(−270deg); }
+div img:nth-child(8) { transform: rotateY(−315deg); }

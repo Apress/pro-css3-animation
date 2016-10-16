@@ -1,0 +1,3 @@
+@media screen and (orientation: landscape) and (max-width: 80em) {
+    #display { transform: rotate(90deg);    }
+}

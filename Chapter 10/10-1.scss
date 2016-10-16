@@ -1,0 +1,7 @@
+#element {
+@include transition-property(width);
+@include transition-duration(2s);
+@include transition-timing-function(ease-in); }
+#element:hover {
+  width: 180%
+}

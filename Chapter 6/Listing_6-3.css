@@ -1,0 +1,11 @@
+@keyframes slider { 
+0%  { transform: translateX(0px); } 
+20% { transform: translateX(0px); } 
+25% { transform: translateX(−500px); } 
+45% { transform: translateX(−500px); } 
+50% { transform: translateX(−1000px); } 
+70% { transform: translateX(−1000px); } 
+75% { transform: translateX(−1500px); } 
+95% { transform: translateX(−1500px); } 
+100% { transform: translateX(−2000px); } 
+} 

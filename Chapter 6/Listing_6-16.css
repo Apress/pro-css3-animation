@@ -1,0 +1,15 @@
+label { 
+     display: block; z-index: 24; transition: 0.3s all ease-in-out; 
+} 
+input:checked ~ figure#imagestrip { 
+     animation-play-state:paused; 
+} 
+input#pause:checked ~ label { 
+     background: rgba(0,0,0,0.4); 
+} 
+input#pause:checked ~ label:before { 
+     content: "❚❚"; font-size: 200px; 
+     color: rgba(255,255,255, 0.5); 
+position: relative; 
+left: 160px; top: 80px; 
+} 

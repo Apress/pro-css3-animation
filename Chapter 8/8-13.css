@@ -1,0 +1,3 @@
+@media screen and (max-width: 1000px) {
+    div#shapes { background-image: url('bodyshapes.svg#ectomorph); }
+}

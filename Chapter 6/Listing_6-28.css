@@ -1,0 +1,26 @@
+dl#gallery { 
+float: left; font-family: Futura, Arial, sans-serif; margin-bottom: 12em; 
+} 
+dl#gallery dd { 
+margin-left: 0; background: rgba(0,0,0,0); 
+position: absolute; top: 0; bottom: 0; 
+width: 100%; height: 100%; 
+display: box;  box-pack:center; box-align:center; 
+visibility: hidden; 
+} 
+dl#gallery dt { width: 150px; margin: 2em 2em 0 2em; } 
+dd:target { visibility: visible; background: rgba(0,0,0,0.6); transition: 2s background linear; 
+} 
+dl#gallery dd a { background: #fff; display: block; text-decoration: none; } 
+dl#gallery dd a span { 
+display: block; background-color: rgba(0,0,0,0.3); color: white; 
+position: absolute; top: 20px; left: 20px; 
+padding: 10px; opacity: 0; 
+transition: 1s opacity ease-in; 
+} 
+dl#gallery dd a:hover span { opacity: 1;  } 
+dl#gallery dd:target a img { animation: blowup 3s forwards; } 
+dl#gallery dd:target a { 
+box-shadow: 0 0 8px 8px rgba(0,0,0,0.3); 
+transition: 4s all ease-in;  position: relative; 
+} 

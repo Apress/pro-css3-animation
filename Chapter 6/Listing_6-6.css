@@ -1,0 +1,19 @@
+figure#imagestrip { width: 500px; height: 400px; 
+background: #000; box-sizing: border-box; 
+  background-image: url(black-kite.jpg), url(red-kite.jpg), url(pelicans.jpg),«
+url(pariah-kite.jpg), url(black-kite.jpg); 
+  background-repeat: no-repeat; 
+background-position-x: 0, 500px, 1000px, 1500px, 2000px; 
+animation: slider 20s infinite; 
+} 
+@keyframes slider { 
+   0%  { background-position-x: 0, 500px, 1000px, 1500px, 2000px; } 
+20% { background-position-x: 0, 500px, 1000px, 1500px, 2000px; } 
+25% { background-position-x: -500px, 0px, 500px, 1000px, 1500px, 2000px; } 
+45% { background-position-x: -500px, 0px, 500px, 1000px, 1500px, 2000px; } 
+50% { background-position-x: -1000px, -500px, 0px, 500px, 1000px, 1500px; } 
+70% { background-position-x: -1000px, -500px, 0px, 500px, 1000px, 1500px; } 
+75% { background-position-x: -1500px, -1000px, -500px, 0px, 500px, 1000px; }    
+95% { background-position-x: -1500px, -1000px, -500px, 0px, 500px, 1000px; } 
+100% { background-position-x: -2000px, -1500px, -1000px, -500px, 0px, 500px; } 
+} 

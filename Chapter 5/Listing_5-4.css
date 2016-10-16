@@ -1,0 +1,7 @@
+#redbox { 
+background-color: red; 
+width: 100px; height: 150px; 
+animation-name: slide; 
+animation-duration: 5s; 
+animation-timing-function: ease-in; 
+} 

@@ -1,0 +1,6 @@
+html, body { min-height: 100%; margin: 0; } 
+html, body { height: 100%; margin: 0; } 
+div#wrapper { width: 100%; min-height: 100 %; 
+     padding: 3em; 
+box-sizing: border-box; background: rgba(255, 255, 255, 0.8); 
+}

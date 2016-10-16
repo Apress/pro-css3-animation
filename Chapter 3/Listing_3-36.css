@@ -1,0 +1,14 @@
+figure.clapperboard figcaption { 
+     width: 1236px; height:515px; 
+     font-family: Futura, Arial, sans-serif; 
+     font-weight: 100; font-style: italic; color: white; 
+     font-size: 1.2rem; padding: 
+     padding: 8rem 2 rem 0 660px; 
+     box-sizing: border-box; 
+     background: rgba(0,0,0,0.6); 
+     text-shadow: 3px 3px 1px rgba(0,0,0,0.6); 
+     transform-origin: bottom right; 
+     transform: rotate(90deg); 
+     left: -618px; 
+     transition: transform 2s cubic-bezier(.12,.49,.17,.87); 
+}

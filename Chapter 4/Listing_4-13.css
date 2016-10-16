@@ -1,0 +1,12 @@
+ul[role=navigation] li { 
+display: inline; font-family: Futura, Arial, sans-serif; 
+text-transform: uppercase; 
+} 
+ul[role=navigation] li a { 
+text-decoration: none; color: #fff; 
+padding: 0.8rem 1.2rem 2rem 1.2rem; 
+border: 1px solid #777; border-radius: 5px 5px 0 0; 
+background: linear-gradient(to bottom, #dfc891, #776c51); 
+box-shadow: 0 0 15px rgba(0,0,0,0.5); 
+letter-spacing: 0.15rem; text-shadow: 0 1px 0 #000; 
+} 

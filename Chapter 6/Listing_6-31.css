@@ -1,0 +1,12 @@
+@keyframes spinner { 
+0%   { 
+     transform: translate(800px,-25px) rotate(378deg); opacity: 0; } 
+100% { transform: translate(2px,-25px) rotate(−56deg); opacity: 1; } 
+} 
+div#container { 
+     position: relative; width: 200px; height: 200px; 
+animation-name: spin; 
+animation-duration: 2s; 
+transform: rotate(−18deg); 
+animation: spinner 1.5s 2s linear both; 
+} 

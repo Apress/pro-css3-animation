@@ -1,0 +1,5 @@
+#cardfan img { border: 32px solid #ffe; 
+     box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2); 
+position: absolute; 
+transform-origin: center 600px; 
+} 

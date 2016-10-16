@@ -1,0 +1,4 @@
+dl#gallery { position: relative; } 
+dl#gallery dt img { width: 150px; height: 150px; margin: 2.2em; } 
+dl#gallery dd { position: absolute; left: 200px; top: 2.2em; visibility: hidden; } 
+dl#gallery dt:hover  +  dd { visibility: visible; }

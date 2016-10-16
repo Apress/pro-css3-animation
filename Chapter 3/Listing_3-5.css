@@ -1,0 +1,3 @@
+div.crossfade { width: 418px; height: 500px; transition: 3s background-image ease-out; 
+background-image: url(leaf-veins.jpg); } 
+div.crossfade:hover { background-image: url(jatropha.jpg);  }

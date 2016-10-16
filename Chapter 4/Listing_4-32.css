@@ -1,0 +1,2 @@
+nav ul li { transition: .3s all linear; } 
+nav ul li:hover ul.submenu { height: 126px;  } 

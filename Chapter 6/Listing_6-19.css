@@ -1,0 +1,25 @@
+div#breaking-news { 
+     position: fixed; bottom: -20px; right: 15%; 
+} 
+div.notification { 
+     position: relative; width: 275px; border-radius: 10px; 
+background: linear-gradient(rgb(215,215,215), rgb(165,164,169)); 
+     padding: 60px 20px 40px; border: 2px solid #999; 
+margin-top: 10px; 
+box-shadow: 3px 3px 6px rgba(0,0,0,0.1) inset, 0 0 6px 2px rgba(0,0,0,0.1); 
+opacity: 0.9; 
+} 
+div.notification a { 
+     color: white; text-stroke: 1px solid #000; 
+text-decoration: none; font-family: Futura, sans-serif; font-size: 20px; 
+} 
+div.notification a span { 
+     font-size: 60px; padding-right: 20px; vertical-align: middle; 
+} 
+div.progress { 
+      height: 5px; border-radius: 2px; border: 1px solid #999; 
+margin-top: 32px; background: rgb(215,215,215); 
+} 
+div.progress span { 
+     background: #000; display: block; width: 0; height: 3px; 
+} 

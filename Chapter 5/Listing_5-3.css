@@ -1,0 +1,5 @@
+@keyframes multislide { 
+20% { right: 200px; } 
+80% { left: 50px; } 
+to { right: 180px; } 
+} 

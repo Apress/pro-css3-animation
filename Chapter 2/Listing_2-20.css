@@ -1,0 +1,12 @@
+h1 { 
+   font-family: Futura; "Arial Black", Arial, sans-serif; 
+text-align: center; 
+} 
+h1:hover { 
+   -moz-transition: 4s all steps(3, end); 
+-webkit-transition: 4s all steps(3, end); 
+transition: 4s all steps(3, end); 
+-moz-transform: translateX(400px); 
+-webkit-transform: translateX(400px); 
+transform: translateX(400px); 
+}

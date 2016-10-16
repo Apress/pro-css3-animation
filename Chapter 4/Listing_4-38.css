@@ -1,0 +1,2 @@
+input { padding: 1rem; transition: .5s 2s all cubic-bezier(0.475, -0.600, 0.435, 1.650);   } 
+input:invalid { border: 3px solid red; transform: translateX(10px); } 

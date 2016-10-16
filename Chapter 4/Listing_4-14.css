@@ -1,0 +1,6 @@
+ul[role=navigation] { 
+background: #000;  padding-top: 3.2rem; padding-bottom: 1rem; 
+overflow: hidden; margin-top: 0; } 
+ul[role=navigation] li { 
+display: inline; font-family: Futura, Arial, sans-serif; 
+text-transform: uppercase; margin-left: -.5rem;  }

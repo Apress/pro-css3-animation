@@ -1,0 +1,8 @@
+div.notification { 
+... 
+     animation-name: popup, fade; 
+animation-duration: 2s, 1s; 
+animation-timing-function: cubic-bezier(0.325, 0.730, 0.695, 1.650); 
+animation-fill-mode: backwards, forwards; 
+animation-delay: 2s, 14s; 
+} 

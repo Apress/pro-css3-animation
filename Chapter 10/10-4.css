@@ -1,0 +1,6 @@
+#shaded-element:hover {
+    filter: custom(url(‘wobble.vs’)
+    40 40,
+    amplitude 60,
+    amount 1.0);
+}

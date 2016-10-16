@@ -1,0 +1,8 @@
+img.flake { width: 150px; height: 150px; position: relative; 
+     animation: snow 8s linear infinite forwards, 
+drift 12s ease-in-out forwards infinite; 
+} 
+img.slow { 
+     animation: snow 16s linear infinite forwards, 
+drift 24s ease-in-out forwards infinite; 
+} 

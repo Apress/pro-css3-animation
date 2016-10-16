@@ -1,0 +1,5 @@
+div.progress span { background: #000; display: block; width: 0; height: 3px; 
+animation: progress 12s 4s forwards linear; 
+} 
+div.notification:nth-child(2) div.progress span { animation-delay: 6s; } 
+div.notification:nth-child(3) div.progress span { animation-delay: 12s; }

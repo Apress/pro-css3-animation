@@ -1,0 +1,16 @@
+img.tilt { 
+width: 300px; height: 300px; float: left; 
+-moz-transition-property: opacity, translateX;-o-transition-property: opacity, translateX; 
+-webkit-transition-property: opacity, translateX; 
+transition-property: opacity, translateX; 
+-moz-transition-duration: 2s, 4s; 
+-o-transition-duration: 2s, 4s; 
+-webkit-transition-duration: 2s, 4s; 
+transition-duration: 2s, 4s; 
+} 
+img.tilt:hover { 
+opacity: .2; 
+-webkit-transform: translateX(60px); 
+-moz-transform: translateX(60px); -ms-transform: translateX(60px); 
+-o-transform: translateX(60px); transform: translateX(60px); 
+}
